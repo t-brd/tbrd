@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="broadcastButton" type="id" />
+    <item name="signButton" type="id" />
+    <item name="signedMessageText" type="id" />
+    <item name="signedMessageLabel" type="id" />
+    <item name="droneIdInput" type="id" />
+    <item name="droneIdText" type="id" />
+    <item name="logOutput" type="id" />
+    <item name="decryptLogButton" type="id" />
+    <item name="outputSignedMessage" type="id" />
+    <item name="inputMessage" type="id" />
+</resources>

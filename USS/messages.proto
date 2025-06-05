@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+message MissionUpdate {
+    string Operator_ID = 1;
+    string UAS_ID = 2 ;
+    double Start = 3;
+    double End = 4;
+    string KeyCommit = 5;
+}
+
+message RequestData {
+    string Operator_ID = 1;
+    string UAS_ID = 2;
+    double Time = 3;
+}
+
+message ReplyData {
+    string KeyCommit = 1;
+    double Start =2;
+
+}
+
+message SendError{
+    int32 ErrorCode = 1;
+}

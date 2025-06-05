@@ -1,0 +1,9 @@
+future==1.0.0
+lxml==5.4.0
+numpy==2.2.6
+protobuf==3.12.4
+pymavlink==2.4.47
+pyzmq==26.4.0
+scapy==2.6.1
+six==1.17.0
+zmq==0.0.0

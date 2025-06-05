@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter number of keys to generate:"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/numKeysInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Number of keys"
+        android:padding="8dp"
+        android:background="@android:drawable/editbox_background" />
+
+    <Button
+        android:id="@+id/generateKeysButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate Keys"
+        android:padding="10dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generated Keys:"
+        android:textSize="18sp"
+        android:paddingTop="16dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@android:color/darker_gray"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/outputKeys"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Keys will be displayed here..."
+            android:textSize="14sp"
+            android:textColor="@android:color/white" />
+    </ScrollView>
+
+</LinearLayout>
