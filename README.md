@@ -2,7 +2,7 @@
 This repository is a proof of concept implementation of TESLA Authenticated Broadcast Remote ID (TBRD). TBRD utilizes a mobile device's dedicated security processor, the Timed-Efficient Stream Loss-tolerant Authentication (TESLA) protocol, and a trusted UAS service supplier (USS) to generate/transmit/receive authenticated RemoteID broadcast messages.  This system is meant to comply with the ASTM F3411-22 standard and builds upon the existing implementation from [OpenDroneID](https://github.com/opendroneid).
 
 <div align="center">
-  <img src="./docs/T-BRD System Diagram.png" alt="TBRD System Architecture" width="800">
+  <img src="./docs/TBR_System_Diagram.png" alt="TBRD System Architecture" width="800">
 </div>
 
 Using the [TESLA](https://people.eecs.berkeley.edu/~tygar/papers/TESLA_broadcast_authentication_protocol.pdf) algorithm to provide broadcast authentication allows us to take advantage of the intrinsic low computational overhead, robustness to packet loss, and scalability. The purpose of the mobile device security processor is to manage key generation and secure storage of seed material. Additionally, the mobile device acts as a physical token that enables the drone operator to prove their identity and securely transmit key commitment information to the third party USS verification server. With these combined components, the system is robust in detection malicious activity such as faking an operator identity, record/reply, and packet manipulation.
